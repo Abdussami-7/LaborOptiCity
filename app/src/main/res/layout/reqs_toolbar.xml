@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#3A0E87"
+    android:elevation="4dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/reqToolBarSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:theme="@style/ThemeOverlay.MaterialComponents.Dark"
+            android:layout_gravity="right|center"
+            android:text="Show Accepted"
+            app:switchPadding="10dp"
+            />
+    </LinearLayout>
+</androidx.appcompat.widget.Toolbar>

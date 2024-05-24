@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "67883595209",
+    "project_id": "laboropticity",
+    "storage_bucket": "laboropticity.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67883595209:android:9c7fdc1ad5688ee080e418",
+        "android_client_info": {
+          "package_name": "com.example.laboropticity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6zftEd2k237pP71mo-21P0k4JxazKrhQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

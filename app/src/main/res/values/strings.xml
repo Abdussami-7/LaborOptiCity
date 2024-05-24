@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">LaborOptiCity</string>
+    <string-array name="Role">
+        <item>User</item>
+        <item>Worker</item>
+        <!--        <item>Prefer Not To Say</item>-->
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="Skill">
+        <item>Plumber</item>
+        <item>Electrician</item>
+        <item>Cleaner</item>
+        <item>Laundry</item>
+        <item>Painter</item>
+        <item>Carpenter</item>
+    </string-array>
+</resources>

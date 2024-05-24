@@ -1,0 +1,11 @@
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/textView"
+    android:layout_width="match_parent"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    android:padding="14dp"
+    android:textSize="20sp"
+    android:fontFamily="@font/baloo_bhai_2_medium"
+    android:layout_height="wrap_content"
+    android:text="TextView" />

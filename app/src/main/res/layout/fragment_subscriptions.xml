@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <android.widget.Button
+        android:id="@+id/redirectBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:visibility="gone"
+        android:textColor="@color/white"
+        android:background="@drawable/button2"
+        android:layout_gravity="center"
+        android:layout_marginVertical="5dp"/>
+
+    <android.widget.Button
+        android:id="@+id/viewReqsBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="View Requests"
+        android:visibility="gone"
+        android:textColor="@color/white"
+        android:background="@drawable/button2"
+        android:layout_gravity="center"
+        android:layout_marginVertical="5dp"/>
+    <android.widget.Button
+        android:id="@+id/viewJobsBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="View Jobs"
+        android:visibility="gone"
+        android:textColor="@color/white"
+        android:background="@drawable/button2"
+        android:layout_gravity="center"
+        android:layout_marginVertical="5dp"/>
+
+</LinearLayout>

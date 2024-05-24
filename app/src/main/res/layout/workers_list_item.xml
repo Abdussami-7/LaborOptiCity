@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/workerListLL"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingHorizontal="5dp"
+    android:paddingVertical="2dp"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/workerListCardview"
+        android:layout_margin="5dp"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/innerLL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/wUids"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="5dp"
+                android:paddingVertical="2dp"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="1dp"/>
+            <TextView
+                android:id="@+id/wNames"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="5dp"
+                android:paddingVertical="2dp"
+                android:text="Name: "
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/wSkills"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Skill: "
+                android:paddingHorizontal="5dp"
+                android:paddingVertical="2dp"/>
+            <TextView
+                android:id="@+id/wLocations"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Location: "
+                android:paddingHorizontal="5dp"
+                android:paddingVertical="2dp"
+                android:layout_marginBottom="2dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
